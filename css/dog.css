@@ -8,9 +8,9 @@ body {
 
 .sausage-dog-animation {
   cursor: pointer;
-  position: relative;
+  position: absolute;
   left: 3%;
-  top: 4%;
+  top: 65%;
   height: 15rem;
   max-height: 80vh;
   max-width: 80vw;

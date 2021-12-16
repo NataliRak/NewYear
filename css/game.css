@@ -1,7 +1,8 @@
-section {
-  position: relative;
-  top: -85%;
-  left: -30%;
+.game {
+  position: absolute;
+  top: 13%;
+  left: 25%;
+  cursor: pointer;
 }
 
 /* .score {
@@ -21,7 +22,6 @@ section {
   } */
 
 .intro {
-  color: rgb(224, 224, 224);
   height: 50vh;
   display: flex;
   flex-direction: column;
