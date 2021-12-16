@@ -1,0 +1,152 @@
+/* cloud1 */
+.cloud1 {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 75px;
+  right: -50px;
+  animation: float2 4s ease-in-out infinite alternate;
+}
+
+.cloud2 {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  animation: float1 4s ease-in-out infinite alternate;
+}
+@keyframes float1 {
+  from {
+    transform: translateX(-25px);
+  }
+  to {
+    transform: translateX(75px);
+  }
+}
+
+@keyframes float2 {
+  from {
+    transform: translateX(5px);
+  }
+  to {
+    transform: translateX(-95px);
+  }
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 60px;
+  border-radius: 50%;
+  background: linear-gradient(blue, blueviolet);
+}
+
+.circle::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  border-radius: 50%;
+  background: linear-gradient(blueviolet, blue);
+}
+
+.circle::after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  border-radius: 50%;
+  background: linear-gradient(blueviolet, blue);
+}
+
+.filler {
+  width: 145px;
+  height: 40px;
+  border-radius: 17px;
+  position: absolute;
+  top: 70px;
+  left: 28px;
+  background: linear-gradient(blue, blueviolet);
+  box-shadow: inset 0 -5px purple;
+}
+
+.star1 {
+  width: 20px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: purple;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  animation: twinkle 0.5s 0.2s linear infinite alternate;
+}
+
+.star1::after {
+  content: "";
+  width: 5px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: purple;
+  position: absolute;
+  top: -7px;
+  right: 8px;
+  animation: twinkle 0.5s 0.2s linear infinite alternate;
+}
+
+.star2 {
+  width: 20px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: purple;
+  position: absolute;
+  top: 90px;
+  right: 60%;
+  animation: twinkle 0.5s 0.3s linear infinite alternate;
+}
+
+.star2::after {
+  content: "";
+  width: 5px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: purple;
+  position: absolute;
+  top: -7px;
+  right: 8px;
+  animation: twinkle 0.5s 0.3s linear infinite alternate;
+}
+
+.star3 {
+  width: 20px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: purple;
+  position: absolute;
+  top: 130px;
+  left: 400px;
+  animation: twinkle 0.5s linear infinite alternate;
+}
+
+.star3::after {
+  content: "";
+  width: 5px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: purple;
+  position: absolute;
+  top: -7px;
+  left: 8px;
+  animation: twinkle 0.5s linear infinite alternate;
+}
+
+@keyframes twinkle {
+  to {
+    background-color: deeppink;
+  }
+}
