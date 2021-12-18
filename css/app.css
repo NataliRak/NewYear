@@ -4,6 +4,7 @@
   height: 400px;
   position: relative;
   overflow: hidden;
+  top: 10%;
 }
 [class^="tree"] {
   position: relative;
@@ -64,10 +65,10 @@
   border-radius: 100%;
   margin-left: 155px;
   top: 380px;
-  background-color: #f5f3f1;
+  background-color: #ddd7ff;
 }
 /* ground snow */
-.snow-3 {
+/* .snow-3 {
   position: absolute;
   width: 30vw;
   height: 30vh;
@@ -95,7 +96,7 @@
   position: absolute;
   top: 87%;
   margin-left: -5%;
-}
+} */
 @keyframes scaleShadow {
   0%,
   55%,
@@ -127,6 +128,7 @@
   top: 0px;
   z-index: 6;
   transform: rotate(35deg);
+  cursor: pointer;
 }
 .star {
   margin: 50px 0;

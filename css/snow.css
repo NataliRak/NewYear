@@ -1,7 +1,10 @@
 /* snow */
 body {
   height: 100vh;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+  background-image: url(https://media.istockphoto.com/vectors/cartoon-panoramic-view-of-winter-night-nature-in-black-and-violet-vector-id1284082838?k=20&m=1284082838&s=170667a&w=0&h=Zr_JtdxJLx4-KPA-jWszyxihp-wEq3OsBPMi9hYdaZg=);
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
   filter: drop-shadow(0 0 10px white);
 }
