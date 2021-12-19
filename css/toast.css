@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  /* display: flex;
+/* body { */
+
+/* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; */
 
-  overflow: hidden;
-  margin: 0;
-}
+/* overflow: hidden;
+  margin: 0; */
+/* }  */
 .btn-toast {
   background-color: #ffffff;
   color: rebeccapurple;
@@ -43,6 +43,7 @@ body {
 }
 
 .toast {
+  font-family: "Poppins", sans-serif;
   background-color: rgb(153, 15, 233);
   border-radius: 5px;
   padding: 1rem 2rem;

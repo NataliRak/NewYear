@@ -1,6 +1,4 @@
 const sounds = ["hohoho", "boo", "boy", "dog", "star"];
-const text = document.querySelector(".smoky ");
-const btntext = document.querySelector(".ornament-container3");
 
 sounds.forEach((sound) => {
   const btn = document.querySelector(".ornament-container1");
@@ -41,11 +39,3 @@ function stopSongs() {
     song.currentTime = 0;
   });
 }
-
-btntext.addEventListener("click", () => {
-  text.style.display = "block";
-
-  setTimeout(() => {
-    text.style.display = "none";
-  }, 8000);
-});

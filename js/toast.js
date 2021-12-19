@@ -2,7 +2,7 @@ const button = document.querySelector(".ornament-container6");
 const toasts = document.getElementById("toasts");
 
 const messages = [
-  "Ты Красавчик!",
+  "Твори добро - мири дебилов :)",
   "Улыбнись!",
   "Можно не бояться быть дураком. Кругом все свои.",
   "Хватит париться, живи как нравится!",

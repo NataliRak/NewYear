@@ -1,4 +1,8 @@
+.main-screen {
+  display: block;
+}
 .game {
+  /* display: block; */
   position: absolute;
   top: 19%;
   left: 25%;
@@ -48,7 +52,7 @@
   box-sizing: border-box;
   color: #fefeff;
   cursor: pointer;
-  display: inline-block;
+  /* display: inline-block; */
   font-family: -apple-system, sans-serif;
   font-size: 12px;
   font-weight: 700;

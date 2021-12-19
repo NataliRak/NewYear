@@ -1,11 +1,5 @@
 /* dog */
 
-body {
-  align-items: center;
-  background-color: #d4e6ff;
-  margin: 0;
-}
-
 .sausage-dog-animation {
   cursor: pointer;
   position: absolute;
